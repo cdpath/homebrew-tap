@@ -1,6 +1,6 @@
 cask "qd" do
-  version "0.2.0"
-  sha256 "98c41c6067346500d3465cee148bc762edaf630a1fee60e47ae0e8ba68d69dea"
+  version "0.2.1"
+  sha256 "d42682a32a85b01d9d8f2d246bacf56152cb0248b36fa6439b838df92b64d52d"
 
   url "https://github.com/cdpath/homebrew-tap/releases/download/qd-v#{version}/qd-#{version}-arm64.zip"
   name "qd"
