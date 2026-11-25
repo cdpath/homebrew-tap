@@ -1,0 +1,33 @@
+name: qd 反馈
+description: 试用 qd 时遇到的问题或想法
+labels: [qd]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: qd 版本
+      description: 从菜单「帮助 › 反馈…」打开时会自动填好。
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本
+      placeholder: 例如 macOS 27.2
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 你做了什么，期望看到什么，实际看到了什么。截图很有帮助。
+    validations:
+      required: true
+  - type: textarea
+    id: dictionaries
+    attributes:
+      label: 用到的词典
+      description: 和哪本词典有关？写词典名，不用上传词典文件。
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志
+      description: 菜单「帮助 › 打开日志文件夹」里的 qd.log，可以直接拖进来。
