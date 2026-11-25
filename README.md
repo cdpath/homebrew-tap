@@ -30,8 +30,11 @@ qd 不带词典。打开后按 ⌘O，选择 `.mdx` 文件或放词典的文件�
 ### 更新
 
 ```sh
+brew update
 brew upgrade --cask qd
 ```
+
+先跑 `brew update`：它会拉取这个 tap 的最新内容。只跑 `brew upgrade` 时，Homebrew 可能只刷新官方仓库，看不到 qd 的新版本，会提示已经是最新版。
 
 ### 反馈
 
